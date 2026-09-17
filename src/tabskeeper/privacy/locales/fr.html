@@ -1,0 +1,64 @@
+<h1>Politique de confidentialité de Tabs Keeper</h1>
+<p class="date">Mise à jour le 11 septembre 2026</p>
+<div class="summary">
+<p><strong>Résumé</strong></p>
+<p>Tabs Keeper (ci-après « l’app ») traite la plupart des données sur votre appareil. Le développeur n’exploite aucun serveur collectant le contenu des onglets, n’intègre aucun SDK tiers de publicité, d’analyse comportementale ou de suivi entre applications, et ne vend pas vos données.</p>
+<p>Les données concernées ne sont traitées par les services Apple, les sites web ou les destinataires de votre choix que lorsque vous activez iCloud, effectuez un achat, chargez l’icône d’un site, partagez du contenu ou envoyez des commentaires.</p>
+</div>
+<h2>1. Champ d'application</h2>
+<p>Cette politique s’applique aux apps Tabs Keeper pour iOS et macOS, ainsi qu’à l’extension web Safari. Elle explique quelles données ces composants traitent, pour quelles raisons, où elles sont stockées et comment vous pouvez les gérer.</p>
+<h2>2. Données traitées par l’app</h2>
+<table>
+<thead><tr><th>Type de données</th><th>Contenu et finalité</th></tr></thead>
+<tbody>
+<tr><td>Données des onglets</td><td>Titre, URL complète, domaine du site, identifiant interne et ordre de tri des onglets, utilisés pour les enregistrer, les afficher, les rechercher, les partager et les rouvrir. Une URL peut elle-même contenir des informations sur le contenu consulté.</td></tr>
+<tr><td>Données d’organisation</td><td>Noms des archives et collections, appartenance des onglets, dates de création et de modification, et état dans la corbeille, utilisés pour organiser et synchroniser votre contenu.</td></tr>
+<tr><td>Réglages locaux</td><td>Préférences telles que l’apparence, l’affichage préalable ou non de la présentation des fonctionnalités et l’activation d’iCloud, utilisées pour mémoriser vos choix.</td></tr>
+<tr><td>État des achats</td><td>Identifiants des produits de l’App Store, droits actifs, date d’expiration des abonnements et état du renouvellement automatique, utilisés pour afficher et débloquer les fonctionnalités Pro.</td></tr>
+<tr><td>Commentaires que vous choisissez d’envoyer</td><td>Lorsque vous envoyez des commentaires par e-mail, vous choisissez le corps du message, les pièces jointes et les coordonnées. L’app ne téléverse pas automatiquement ces éléments avant l’envoi.</td></tr>
+</tbody>
+</table>
+<h2>3. Accès aux onglets par l’extension Safari</h2>
+<p>Pour enregistrer les onglets de la fenêtre actuelle, l’extension doit être autorisée à accéder aux onglets et aux sites web dans Safari. Lorsque vous ouvrez l’extension, elle lit le titre, l’URL et l’adresse d’icône disponible des onglets enregistrables dans la fenêtre Safari actuelle afin d’afficher une liste de sélection. Seules les données dont vous confirmez l’enregistrement sont écrites dans la base de données de l’app.</p>
+<p>L’extension ne lit ni le contenu des pages web, ni les données saisies dans les formulaires, ni les mots de passe, ni les cookies. Elle n’enregistre pas non plus votre historique de navigation en continu. Vous pouvez consulter, modifier ou révoquer ses autorisations à tout moment dans les réglages des extensions de Safari. Les fonctions d’enregistrement qui en dépendent peuvent cesser de fonctionner après leur révocation.</p>
+<h2>4. Stockage local et App Group</h2>
+<p>Par défaut, les données sont stockées sous forme de fichiers locaux dans un conteneur App Group partagé sur votre appareil, ce qui permet à l’app principale et à l’extension Safari d’accéder à la même base de données. Les préférences telles que l’apparence, l’état de la présentation des fonctionnalités et l’activation d’iCloud sont enregistrées localement sur l’appareil.</p>
+<p>Le développeur ne téléverse pas automatiquement cette base de données locale vers un serveur qu’il exploite. Les sauvegardes de l’appareil, les migrations du système et le traitement effectué par le système d’exploitation dépendent de vos réglages et des services Apple.</p>
+<h2>5. Synchronisation iCloud facultative</h2>
+<p>La synchronisation iCloud est désactivée par défaut. Lorsque vous l’activez, l’app fusionne les archives, collections, onglets et métadonnées de synchronisation nécessaires avec les données locales, puis les stocke dans la base de données CloudKit privée associée à votre identifiant Apple. Les appareils utilisant le même identifiant Apple peuvent ainsi se synchroniser.</p>
+<p>Désactiver la synchronisation iCloud ne supprime ni les données locales ni celles déjà stockées dans CloudKit. CloudKit est fourni par Apple et son traitement est régi par la <a href="https://www.apple.com/legal/privacy/">politique de confidentialité d’Apple</a> ainsi que par vos réglages iCloud.</p>
+<h2>6. Sélection intelligente par IA</h2>
+<p>Sur les appareils compatibles avec Apple Intelligence, l’app utilise le modèle de langage embarqué d’Apple uniquement lorsque vous touchez « Sélection intelligente par IA ». Le modèle analyse le nom de la collection ainsi que le titre, le domaine et l’identifiant interne des onglets proposés. L’implémentation actuelle ne traite pas le contenu complet des pages web et n’envoie pas ces informations au serveur du développeur.</p>
+<p>Les résultats de l’IA sont uniquement des suggestions. Ils n’enregistrent ni ne suppriment automatiquement les onglets, et ne désélectionnent pas ceux que vous avez déjà choisis. Vous devez toujours toucher le bouton d’importation pour confirmer.</p>
+<h2>7. Requêtes d’icônes de sites web</h2>
+<p>Pour afficher une icône de site, l’app ou Safari peut utiliser l’adresse fournie par l’onglet ou demander <code>/favicon.ico</code> au site concerné. La requête lui est envoyée directement et peut lui transmettre, comme toute requête réseau, l’adresse IP, des informations réseau sur l’appareil et l’agent utilisateur. L’app ne relaie pas ces requêtes vers le serveur du développeur. Une image locale de remplacement s’affiche si l’icône ne peut pas être chargée.</p>
+<h2>8. Achats et abonnements Pro</h2>
+<p>Apple gère les achats, les abonnements, la restauration des achats et la gestion des abonnements via l’App Store et StoreKit. L’app lit les informations de produit et les droits validés par Apple pour déterminer si Pro est actif et afficher la date d’expiration et l’état du renouvellement. Le développeur ne reçoit ni votre numéro de carte, ni vos informations de paiement complètes, ni le mot de passe de votre identifiant Apple.</p>
+<h2>9. Partage et commentaires par e-mail</h2>
+<p>L’app transmet les noms, titres d’onglets et URL sélectionnés à la feuille de partage du système uniquement lorsque vous choisissez de les partager. Ces données sont ensuite traitées par l’app, le service ou le contact que vous sélectionnez. L’envoi de commentaires ouvre l’interface de messagerie du système, où vous vérifiez et confirmez le message et son contenu.</p>
+<h2>10. Conservation et suppression des données</h2>
+<ul>
+<li>Les archives, collections et onglets sont conservés jusqu’à ce que vous les supprimiez.</li>
+<li>Les archives et collections placées dans la corbeille sont conservées pendant 7 jours, puis définitivement supprimées à la prochaine ouverture de l’app. Vous pouvez aussi les restaurer ou les supprimer définitivement avant cette échéance.</li>
+<li>Lorsqu’un onglet n’appartient plus à aucune archive ni collection, son enregistrement est supprimé.</li>
+<li>Pour empêcher un contenu supprimé définitivement de réapparaître lors de la fusion des données de plusieurs appareils, l’app peut conserver un marqueur de suppression minimal contenant uniquement l’identifiant interne de l’élément et la date de suppression. Ce marqueur ne contient ni titre d’onglet, ni URL, ni nom d’archive ou de collection.</li>
+<li>Lorsque iCloud est activé, les suppressions locales sont répercutées dans CloudKit lors d’une synchronisation ultérieure. La désinstallation de l’app ne supprime pas nécessairement les données déjà stockées dans iCloud.</li>
+</ul>
+<h2>11. Partage de données et services tiers</h2>
+<p>Le développeur ne vend pas et ne loue pas vos données, et ne les utilise pas à des fins de publicité ciblée. L’app ne contient aucun SDK tiers de publicité ou d’analyse. Pour fournir les fonctions que vous choisissez d’utiliser, les données peuvent être traitées par :</p>
+<ul>
+<li>Apple, qui fournit iCloud/CloudKit, l’App Store/StoreKit, le partage système, la messagerie et les fonctions du système d’exploitation.</li>
+<li>Le site web concerné, qui reçoit une requête réseau standard uniquement lors du chargement de son icône.</li>
+<li>Les destinataires que vous choisissez, qui reçoivent uniquement le contenu dont vous confirmez le partage ou l’envoi par e-mail.</li>
+</ul>
+<h2>12. Sécurité</h2>
+<p>L’app utilise les protections de la plateforme Apple, notamment le bac à sable des apps, App Group, les autorisations système, la validation StoreKit et une base de données CloudKit privée. Aucune méthode de stockage ou de transmission ne peut garantir une sécurité absolue. Protégez donc le code de votre appareil et votre identifiant Apple.</p>
+<h2>13. Confidentialité des enfants</h2>
+<p>L’app ne nécessite pas de créer un compte et ne collecte pas activement l’âge des utilisateurs. Le développeur ne recueille pas sciemment de données personnelles concernant des enfants par l’intermédiaire de l’app. Si vous pensez que cela s’est produit, contactez le développeur comme indiqué ci-dessous.</p>
+<h2>14. Vos choix et droits</h2>
+<p>Vous pouvez révoquer les autorisations de l’extension Safari, désactiver iCloud, supprimer des onglets, placer des archives ou collections dans la corbeille et les supprimer définitivement, ainsi que gérer vos achats et abonnements dans les réglages du système. Si la loi applicable vous accorde des droits d’accès, de rectification, de suppression ou de limitation du traitement, vous pouvez nous contacter comme indiqué ci-dessous.</p>
+<h2>15. Mises à jour de cette politique</h2>
+<p>En cas de modification importante des fonctionnalités, du traitement des données ou des exigences applicables, le développeur mettra cette politique à jour et modifiera la date indiquée ci-dessus. Si nécessaire, il pourra également vous en informer dans les notes de version de l’app.</p>
+<h2>16. Nous contacter</h2>
+<p>Pour toute question concernant cette politique ou le traitement des données, contactez le développeur dans l’app via « Paramètres » → « Envoyer des commentaires par e-mail ». N’incluez pas de mots de passe, d’informations de paiement ni d’autres données sensibles inutiles dans vos commentaires.</p>
+<p><a href="mailto:support@dawnsoft.app">support@dawnsoft.app</a></p>
