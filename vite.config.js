@@ -13,6 +13,10 @@ export default defineConfig({
           process.cwd(),
           'tabskeeper/privacy/index.html',
         ),
+        tabskeeperSupport: resolve(
+          process.cwd(),
+          'tabskeeper/support/index.html',
+        ),
       },
     },
   },
