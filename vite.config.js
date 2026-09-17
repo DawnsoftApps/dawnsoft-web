@@ -6,7 +6,13 @@ export default defineConfig({
   plugins: [vue()],
   build: {
     rollupOptions: {
-      input: resolve(process.cwd(), 'tabskeeper/privacy/index.html'),
+      input: {
+        main: resolve(process.cwd(), 'index.html'),
+        tabskeeperPrivacy: resolve(
+          process.cwd(),
+          'tabskeeper/privacy/index.html',
+        ),
+      },
     },
   },
 })
