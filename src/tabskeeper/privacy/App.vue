@@ -108,7 +108,7 @@ function changeLanguage() {
 <template>
   <header class="toolbar">
     <a class="brand" href="/tabskeeper/privacy" aria-label="Tabs Keeper">
-      <span class="brand-mark" aria-hidden="true">T</span>
+      <img class="brand-mark" src="./icon.png" alt="" />
       <span>Tabs Keeper</span>
     </a>
 
